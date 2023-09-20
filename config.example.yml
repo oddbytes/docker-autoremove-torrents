@@ -1,23 +1,20 @@
-my_task:          # Part 1: Task Name
+my_task: # Part 1: Task Name
   # Part 2: Login Information
   client: qbittorrent
-  host: http://127.0.0.1:9091
-  username: admin
+  host: http://192.168.0.192:8080
+  username: qbittorrent
   password: adminadmin
   # Part 3: Strategies Block (Remove Conditions)
   strategies:
-    strategy1:    # Part I: Strategy Name
+    omegabrr2-3days: # Part I: Strategy Name
       # Part II: Filters
       categories:
-        - IPT
+        - omegabrr2
       # Part III: Remove Condition
-      ratio: 1
-      seeding_time: 1209600
-    strategy2:
-      all_categories: true
-      excluded_categories:
-        - IPT
-      seeding_time: 259200
+      # ratio: 1
+      seeding_time: 285000 #3dias y pico
+      #seeding_time: 277000 #3dias y pico
+
     # Add more strategies here...
   # Part 4: Decide whether to remove and delete data (optional)
   delete_data: true

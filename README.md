@@ -1,21 +1,19 @@
 # autoremove-torrents image
 
-Image for the PyPi module autoremove-torrents. 
-
-
+Image for the PyPi module autoremove-torrents.
 
 > This program can help you to remove your torrents. Now you don’t need
 > to worry about your disk space - according to your strategies, the
 > program will check each torrent if it satisfies the remove condition;
 > If so, delete it automatically.
-> 
+>
 > This program supports qBittorrent/Transmission/μTorrent.
 
 https://pypi.org/project/autoremove-torrents/
 
 ## Usage
 
-    docker run dantebarba/autoremove-torrents:latest -v /path/to/config.yml:/app/config.yml -e OPTS=customoptions
+    docker run oddbytes/autoremove-torrents:latest -v /path/to/config.yml:/app/config.yml -e OPTS=customoptions
 
 OPTS can take the following arguments:
 
